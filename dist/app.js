@@ -58,9 +58,9 @@ darkButtonSmall.addEventListener('click', function() {
   const scrollContainer = document.querySelector(".overflow-x-auto");
 
   scrollLeftButton.addEventListener("click", () => {
-    scrollContainer.scrollLeft -= 100; // Puedes ajustar la cantidad de desplazamiento
+    scrollContainer.scrollLeft -= 250; // Puedes ajustar la cantidad de desplazamiento
   });
 
   scrollRightButton.addEventListener("click", () => {
-    scrollContainer.scrollLeft += 100; // Puedes ajustar la cantidad de desplazamiento
+    scrollContainer.scrollLeft += 250; // Puedes ajustar la cantidad de desplazamiento
   });
