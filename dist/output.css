@@ -973,3 +973,17 @@ video {
     background-image: url('./img/profile.jpg');
   }
 }
+
+@keyframes fall {
+  0% {
+      transform: translateY(-100%);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+.fall-animation {
+  animation: fall 1s ease-in-out;
+  animation-iteration-count: 1;
+}
